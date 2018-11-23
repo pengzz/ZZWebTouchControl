@@ -1,0 +1,6 @@
+framework module ZZWebViewDemo {
+  umbrella header "ZZWebViewDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,16 @@
+PODS:
+  - ZZWebViewDemo (0.1.0)
+
+DEPENDENCIES:
+  - ZZWebViewDemo (from `../`)
+
+EXTERNAL SOURCES:
+  ZZWebViewDemo:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ZZWebViewDemo: 6faca32582f7b756ba6bc31ee304601a42c8e648
+
+PODFILE CHECKSUM: bc8b7937570a8319fa93e64cfa796aa13ff9f2a4
+
+COCOAPODS: 1.5.0
