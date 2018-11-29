@@ -13,22 +13,55 @@
 NS_ASSUME_NONNULL_BEGIN
 
 /**
- 两种webView的长按图片动作控制
-
- *使用示例：
- * __weak typeof(self) this = self;
- * _webTouchControl = [[ZZWebTouchControl alloc] initWithWebView:_kWebView];
+ ......:::::::两种webView的长按图片动作控制类:::::::......
  
- *或者：
- * _webTouchControl = [[ZZWebTouchControl alloc] init];
- * _webTouchControl.webView = _kWebView;
+ ## 类初始化使用示例：
+    方式一：
+    _webTouchControl = [[ZZWebTouchControl alloc] initWithWebView:_kWebView];
+    方式二：
+    _webTouchControl = [[ZZWebTouchControl alloc] init];
+    _webTouchControl.webView = _kWebView;
  
- *回调：
- * _webTouchControl.webViewlongPressGestureRecognizerWithUrl = ^(NSString * _Nonnull urlStr, CGRect frame) {
- *     NSLog(@"长按：urlStr==%@, frame==%@", urlStr, NSStringFromCGRect(frame));
- * }
+ ## 回调：
+    _webTouchControl.webViewlongPressGestureRecognizerWithUrl = ^(NSString * _Nonnull urlStr, CGRect frame) {
+    NSLog(@"长按：urlStr==%@, frame==%@", urlStr, NSStringFromCGRect(frame));
+    }
 
+ @warning 注意：在使用WKWebView时，为屏蔽其自带的长按图片弹窗alert，须在在其WKNavigationDelegate代理的didFinishNavigation事件中，添加如下两句：
+    （WKWebview--didFinishNavigation--禁止长按图片弹窗alert）
+    [webView evaluateJavaScript:@"document.documentElement.style.webkitTouchCallout='none';" completionHandler:nil];
+    [webView evaluateJavaScript:@"document.documentElement.style.webkitUserSelect='none';" completionHandler:nil];
+
+
+ ## 长按图片回调示例：
+    __weak typeof(self) weakSelf = self;
+    _webTouchControl.webViewlongPressGestureRecognizerWithUrl = ^(NSString * _Nonnull urlStr, CGRect frame) {
+        NSLog(@"长按：urlStr==%@, frame==%@", urlStr, NSStringFromCGRect(frame));
+        //以url同步下载图片方式
+        if(0){
+            NSLog(@"image url：%@",urlStr);
+            NSData *data = [NSData dataWithContentsOfURL:[NSURL URLWithString:urlStr]];
+            UIImage *image = [UIImage imageWithData:data];
+            if (image) {
+                //save image or Extract QR code
+                NSString *str1 = [UIView zz_getQRCodeStrWithImage:image];
+                NSLog(@"str1==%@", str1);
+            }
+        }
+        //截图方式（推荐）
+        if(1){
+            //1::
+            UIImage *image = [weakSelf.kWebView zz_screenShotAtFrame:frame];
+            NSString *str1 = [UIView zz_getQRCodeStrWithImage:image];
+            //2::
+            UIImage *allimage = [weakSelf.kWebView zz_screenShotAtFrame:weakSelf.kWebView.bounds];
+            NSString *str2 = [UIView zz_getQRCodeStrWithImage:allimage];
+            NSLog(@"str1==%@, str2==%@", str1, str2);
+        }
+    };
+ 
  */
+
 @interface ZZWebTouchControl : NSObject
 
 /**
@@ -58,7 +91,8 @@ NS_ASSUME_NONNULL_BEGIN
 @end
 
 
-#pragma mark - 辅助方法 =========================================
+
+#pragma mark - ......::::::: 辅助方法 :::::::......
 
 @interface UIView (ZZScreenShots)
 

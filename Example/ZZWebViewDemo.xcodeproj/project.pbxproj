@@ -474,13 +474,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1C0B9CF32181A37600DCDB58 /* Classes */ = {
+		1C0B9CF32181A37600DCDB58 /* Classes1_MHRefresh_MWebView */ = {
 			isa = PBXGroup;
 			children = (
 				1C0B9D5A2181A6ED00DCDB58 /* SDWebImage */,
 				1C0B9CF42181A3CC00DCDB58 /* MHRefresh_MWebView */,
 			);
-			path = Classes;
+			path = "Classes1_MHRefresh_MWebView";
 			sourceTree = "<group>";
 		};
 		1C0B9CF42181A3CC00DCDB58 /* MHRefresh_MWebView */ = {
@@ -816,7 +816,7 @@
 			path = FLAnimatedImage;
 			sourceTree = "<group>";
 		};
-		1C0B9EA22181B38F00DCDB58 /* Classes2_PhotoBrowser */ = {
+		1C0B9EA22181B38F00DCDB58 /* Classes2_WebViewPhotoBrowser */ = {
 			isa = PBXGroup;
 			children = (
 				1CD5311D2182AF9A0079CF42 /* Vendor */,
@@ -824,7 +824,7 @@
 				1C0B9EAA2181B6DE00DCDB58 /* FMWeiboDetailView.m */,
 				1C0B9EA32181B38F00DCDB58 /* Categorys */,
 			);
-			path = Classes2_PhotoBrowser;
+			path = Classes2_WebViewPhotoBrowser;
 			sourceTree = "<group>";
 		};
 		1C0B9EA32181B38F00DCDB58 /* Categorys */ = {
@@ -911,8 +911,8 @@
 				6003F59C195388D20070C39A /* ZZAppDelegate.h */,
 				6003F59D195388D20070C39A /* ZZAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
-				1C0B9EA22181B38F00DCDB58 /* Classes2_PhotoBrowser */,
-				1C0B9CF32181A37600DCDB58 /* Classes */,
+				1C0B9EA22181B38F00DCDB58 /* Classes2_WebViewPhotoBrowser */,
+				1C0B9CF32181A37600DCDB58 /* Classes1_MHRefresh_MWebView */,
 				6003F5A5195388D20070C39A /* ZZViewController.h */,
 				6003F5A6195388D20070C39A /* ZZViewController.m */,
 				1CD5311621829AFF0079CF42 /* ZZWebTouchControl.h */,

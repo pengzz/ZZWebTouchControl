@@ -8,20 +8,17 @@
 
 #import "ZZWebTouchControl.h"
 
-////尝试一下
-//#import "WKWebView+MElementFrame.h"
-
 #define WeakSelf __weak typeof(self) weakSelf = self;
 #define StrongSelf __strong typeof(weakSelf) strongSelf = weakSelf;
 
 @interface ZZWebTouchControl ()
 @property (nonatomic, strong) UITapGestureRecognizer *tapGestureRecognizer;
 @property (nonatomic, strong) UILongPressGestureRecognizer *longPressGestureRecognizer;
-//
+
 //TO DO XXX
-@property(nonatomic, weak)UIWebView *webView0;
-@property(nonatomic, weak)WKWebView *wkWebView0;
-@property(nonatomic, readonly)UIWindow      *window;
+//@property(nonatomic, weak)UIWebView *webView0;
+//@property(nonatomic, weak)WKWebView *wkWebView0;
+//@property(nonatomic, readonly)UIWindow      *window;
 
 @end
 
@@ -50,7 +47,7 @@
     }
 }
 
-
+/*
 - (UIWindow *)window {
     return [[[UIApplication sharedApplication] delegate] window];
 }
@@ -121,6 +118,7 @@
             break;
     }
 }
+*/
 
 
  #pragma mark- TapGestureRecognizer
@@ -146,12 +144,15 @@
         return YES;
     }
     
+    /*
     //只加长按手势时才加下面这几行代码
-//    otherGestureRecognizer.cancelsTouchesInView = NO;
-//    if ([otherGestureRecognizer isKindOfClass:[UILongPressGestureRecognizer class]]) {
-//        otherGestureRecognizer.enabled = NO;
-//    }
-//    return YES;
+    otherGestureRecognizer.cancelsTouchesInView = NO;
+    if ([otherGestureRecognizer isKindOfClass:[UILongPressGestureRecognizer class]]) {
+        otherGestureRecognizer.enabled = NO;
+    }
+     */
+    
+    return YES;
 }
 - (BOOL)gestureRecognizer:(UIGestureRecognizer *)gestureRecognizer shouldReceiveTouch:(UITouch *)touch {
     return YES;
@@ -276,12 +277,11 @@
     return _longPressGestureRecognizer;
 }
 
-
-
 @end
 
 
-#pragma mark - 辅助方法 =========================================
+
+#pragma mark - ......::::::: 辅助方法 :::::::......
 
 @implementation UIView (ZZScreenShots)
 
