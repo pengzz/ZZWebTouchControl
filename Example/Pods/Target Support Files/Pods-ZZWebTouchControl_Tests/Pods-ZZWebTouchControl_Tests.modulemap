@@ -1,0 +1,6 @@
+framework module Pods_ZZWebTouchControl_Tests {
+  umbrella header "Pods-ZZWebTouchControl_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
