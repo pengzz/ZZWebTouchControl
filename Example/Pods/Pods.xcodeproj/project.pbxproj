@@ -7,199 +7,161 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2B8C5CE602742B5CFCDDABEF03235BDC /* Pods-ZZWebViewDemo_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 12CBD408C6A0017181E2C4529DD6B14C /* Pods-ZZWebViewDemo_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		66AE2FE8A8FC11140254A8D390E0E901 /* Pods-ZZWebViewDemo_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 59BEAF0C12A077E96A8F2A71AB7B77B6 /* Pods-ZZWebViewDemo_Example-dummy.m */; };
-		6B7C71B8582E718DCC0E359F2CAD2964 /* Pods-ZZWebViewDemo_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C3482EADBCC81C4AEA165BC48004169 /* Pods-ZZWebViewDemo_Tests-dummy.m */; };
-		7702FE520695A3CA42C5543C61374A3B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		7E539E6647598C479595906B8417424D /* ZZWebViewDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B60B545134C1AA1C090B9094F7765377 /* ZZWebViewDemo-dummy.m */; };
-		9F32E6562F3B6C471F44F29E99C2E21C /* ZZWebViewDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C17EAE3B61DCEE17B085CE1A804E1F0B /* ZZWebViewDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A9673A54E87CB5192E29D243F7883460 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		AD6E30CF64129237B034CE4FB119C8EC /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 62A17BFEE15C7D7CB586DC74AC130A3B /* ReplaceMe.m */; };
-		D352E6105ACC9639C94F527AB3631308 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		DC278107FF7CBF2B7E3B2C0EBE9F19EB /* Pods-ZZWebViewDemo_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AA068DB44048E9D3B2F3F5769E8528B9 /* Pods-ZZWebViewDemo_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		07B4BE100A83D8E69B4F194E10571E03 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		2999ED6C0DA4246CF5A09B914E4DD2DD /* ZZWebTouchControl-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D0A3D24121E2DF62CEEBEF22CE4CD1C0 /* ZZWebTouchControl-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		738618A817D8D7D8821E1429E4CBAA67 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		790492D182359C3803E18FE3FD501FDF /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B9C17E4345E1A42B69B5FEA17C87FAF /* ReplaceMe.m */; };
+		9A5D5A0834354C3959CC3623BE5F65D9 /* Pods-ZZWebTouchControl_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D465CF2D05163418C7A5328E8B1158A /* Pods-ZZWebTouchControl_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A2467C2BCEDF0A34930A0C2F8A9F804E /* ZZWebTouchControl-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D67167144BAC771BEF4A2F9C221E60F0 /* ZZWebTouchControl-dummy.m */; };
+		B255D099A307B80F30FEEAAE56733451 /* Pods-ZZWebTouchControl_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CD5EE4B1D6904E96821C8D3773098ECF /* Pods-ZZWebTouchControl_Example-dummy.m */; };
+		C5F175E3F3606C1745FBB7282D6DD675 /* Pods-ZZWebTouchControl_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 69F62A2469A8D90CE3C97E2CEE060BFE /* Pods-ZZWebTouchControl_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F818D42E377218B164A37DF602A68009 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		FB8E8304052D410FE6DD1A005F216195 /* Pods-ZZWebTouchControl_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 93EC023ACD70110F47A6BAC3B7567C41 /* Pods-ZZWebTouchControl_Tests-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		DB0838A83FD0065117D116A5FD13B60C /* PBXContainerItemProxy */ = {
+		3D2E85A29E161BC33AD1A448308153E3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 45E6C115386CF66EE10346BF7A09262C;
-			remoteInfo = ZZWebViewDemo;
+			remoteGlobalIDString = 59E9EA74A5632A0BAAE22B587CF1CE10;
+			remoteInfo = ZZWebTouchControl;
 		};
-		EB105295368808D160ED24D1511C3F1F /* PBXContainerItemProxy */ = {
+		BF907155132A08A3B82850F315C92E25 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = C5068C5CCF15887B01F77A6020FD6567;
-			remoteInfo = "Pods-ZZWebViewDemo_Example";
+			remoteGlobalIDString = 2109376D59125DACE24F9695ED28FB44;
+			remoteInfo = "Pods-ZZWebTouchControl_Example";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0562359014789E775790218E2B82C5C8 /* Pods-ZZWebViewDemo_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZZWebViewDemo_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		0E8E189C0C931D738C9D45A0991BF491 /* ZZWebViewDemo.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZZWebViewDemo.xcconfig; sourceTree = "<group>"; };
-		12CBD408C6A0017181E2C4529DD6B14C /* Pods-ZZWebViewDemo_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZZWebViewDemo_Example-umbrella.h"; sourceTree = "<group>"; };
-		1A21F4BFD448C1164E7B458B96E1471E /* Pods-ZZWebViewDemo_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZZWebViewDemo_Example.modulemap"; sourceTree = "<group>"; };
-		2C01BDE2EADB5D65B747ED38DE6DD48C /* Pods-ZZWebViewDemo_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZZWebViewDemo_Example.release.xcconfig"; sourceTree = "<group>"; };
-		3299B48BC6C3FF6FB0BDA226CE8127F8 /* Pods-ZZWebViewDemo_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZZWebViewDemo_Example-resources.sh"; sourceTree = "<group>"; };
-		33F3E13AB358EC4B0024ACC66E3E7D67 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3C24F65C3F5D4D3695A914D35F8B2DDF /* Pods-ZZWebViewDemo_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZZWebViewDemo_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		4D39F06D2AF6276885D589AEE6DACB4B /* Pods-ZZWebViewDemo_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZZWebViewDemo_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		59BEAF0C12A077E96A8F2A71AB7B77B6 /* Pods-ZZWebViewDemo_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZZWebViewDemo_Example-dummy.m"; sourceTree = "<group>"; };
-		5C3482EADBCC81C4AEA165BC48004169 /* Pods-ZZWebViewDemo_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZZWebViewDemo_Tests-dummy.m"; sourceTree = "<group>"; };
-		62A17BFEE15C7D7CB586DC74AC130A3B /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = ZZWebViewDemo/Classes/ReplaceMe.m; sourceTree = "<group>"; };
-		64668BD71AA303D0EAB54D5BF35F721C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		65DCFA3D6A8A5D45A9755186A3AA2F08 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02A5DD7E46416F7553F3041CFC3796C2 /* Pods-ZZWebTouchControl_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZZWebTouchControl_Tests.modulemap"; sourceTree = "<group>"; };
+		18EEE1E0794EE59289C033597DD365D9 /* ZZWebTouchControl.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ZZWebTouchControl.modulemap; sourceTree = "<group>"; };
+		1DE257FFE8905CA543AFA98CBA92EF7B /* Pods-ZZWebTouchControl_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZZWebTouchControl_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		2C6AF08A7D6AB448EC2DCF61A802B52F /* ZZWebTouchControl.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ZZWebTouchControl.framework; path = ZZWebTouchControl.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D465CF2D05163418C7A5328E8B1158A /* Pods-ZZWebTouchControl_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZZWebTouchControl_Tests-umbrella.h"; sourceTree = "<group>"; };
+		31F7FE7D9A421CAFF4FD44EAC2809EB4 /* Pods-ZZWebTouchControl_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZZWebTouchControl_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3F48E20A6799329ADABF67BB47E9F932 /* ZZWebTouchControl.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = ZZWebTouchControl.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		40DB88D51BA43A3048535CF60E1CE193 /* ZZWebTouchControl.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZZWebTouchControl.xcconfig; sourceTree = "<group>"; };
+		49BC0D99617F8C617D411B3745194152 /* Pods_ZZWebTouchControl_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ZZWebTouchControl_Tests.framework; path = "Pods-ZZWebTouchControl_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F5C000FAEBF99B5357AB07A3025581F /* Pods-ZZWebTouchControl_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZZWebTouchControl_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		648F9D515463BAB6F85F54EE51AEC1D5 /* ZZWebTouchControl-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZZWebTouchControl-prefix.pch"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		69E9EB68DB8E574F8A0E04CE62EAB677 /* Pods-ZZWebViewDemo_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZZWebViewDemo_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		6B25AE2CCC2D2652CE39BD6955307333 /* Pods-ZZWebViewDemo_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZZWebViewDemo_Tests.modulemap"; sourceTree = "<group>"; };
-		6E6216E1FFD505F1CCA705467DA4190F /* Pods-ZZWebViewDemo_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZZWebViewDemo_Tests-resources.sh"; sourceTree = "<group>"; };
-		7F6226467817EAFC64CAC4CEE15FCDCD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66CE61E8A5D0EEA8E01D05B6A382EA6B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69F62A2469A8D90CE3C97E2CEE060BFE /* Pods-ZZWebTouchControl_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZZWebTouchControl_Example-umbrella.h"; sourceTree = "<group>"; };
+		6AAA87714EF243FFD2B0131875574926 /* Pods-ZZWebTouchControl_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZZWebTouchControl_Example-resources.sh"; sourceTree = "<group>"; };
+		6B9C17E4345E1A42B69B5FEA17C87FAF /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = ZZWebTouchControl/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		77A1FD6AFC7FB9A2CB4470C3E8B41792 /* Pods-ZZWebTouchControl_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZZWebTouchControl_Example-frameworks.sh"; sourceTree = "<group>"; };
+		7884FA8AECFC68843106FF93277238C5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		7D260B5D1B76FF6517E7D1BEC265D362 /* Pods-ZZWebTouchControl_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZZWebTouchControl_Example.release.xcconfig"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		93E1A00227E49770A8D8EC46BC5B455A /* Pods_ZZWebViewDemo_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ZZWebViewDemo_Example.framework; path = "Pods-ZZWebViewDemo_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		945F910D0EFBEFD43F2C7177B438EEAD /* Pods_ZZWebViewDemo_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ZZWebViewDemo_Tests.framework; path = "Pods-ZZWebViewDemo_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A5FF4B7C06E67DF1B3C337C9FB198EA3 /* ZZWebViewDemo-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZZWebViewDemo-prefix.pch"; sourceTree = "<group>"; };
-		AA068DB44048E9D3B2F3F5769E8528B9 /* Pods-ZZWebViewDemo_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZZWebViewDemo_Tests-umbrella.h"; sourceTree = "<group>"; };
-		B229CD7D699E486427F07C7A6B51F1E1 /* Pods-ZZWebViewDemo_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZZWebViewDemo_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		B60B545134C1AA1C090B9094F7765377 /* ZZWebViewDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZZWebViewDemo-dummy.m"; sourceTree = "<group>"; };
-		BD37E54BEAD975AAB8D6A8CEFC883528 /* Pods-ZZWebViewDemo_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZZWebViewDemo_Example-frameworks.sh"; sourceTree = "<group>"; };
-		C17EAE3B61DCEE17B085CE1A804E1F0B /* ZZWebViewDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZZWebViewDemo-umbrella.h"; sourceTree = "<group>"; };
-		CB78BD6AB3150FA35844E5D727BBA3C8 /* Pods-ZZWebViewDemo_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZZWebViewDemo_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		CE0638C4B78F0E12C663FAA23683C43E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		E8A64BCFA9870B89207245551A9789ED /* ZZWebViewDemo.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = ZZWebViewDemo.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		EE82651D9D5D797F4C362465C3B5DE92 /* Pods-ZZWebViewDemo_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZZWebViewDemo_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		EFC9E1ECE336B0BE8A59B6F801B01566 /* ZZWebViewDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ZZWebViewDemo.modulemap; sourceTree = "<group>"; };
-		FB9365A91C6D9E3B4B58F4FECC69341C /* Pods-ZZWebViewDemo_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZZWebViewDemo_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		FCD1577A09BA853256CD0C935FC48BAB /* ZZWebViewDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ZZWebViewDemo.framework; path = ZZWebViewDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93EC023ACD70110F47A6BAC3B7567C41 /* Pods-ZZWebTouchControl_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZZWebTouchControl_Tests-dummy.m"; sourceTree = "<group>"; };
+		9A01D2A962E6911D51F54F850C179E93 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		9BBE91ABB82851169EEA1302DC61A2A5 /* Pods-ZZWebTouchControl_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZZWebTouchControl_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A5C72568C0A9F735C70A69C84CFA0BF2 /* Pods-ZZWebTouchControl_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZZWebTouchControl_Tests-resources.sh"; sourceTree = "<group>"; };
+		B128D2C522247B94BD13A6386A3E32B1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B73E0B05AAD7AD7F82F9CA2E2D108F11 /* Pods-ZZWebTouchControl_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZZWebTouchControl_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		BCBC24C51367EBBD0B68A3BF3BBF2B17 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C25B43CA8024520EBF4974D09BE28AA5 /* Pods-ZZWebTouchControl_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZZWebTouchControl_Example.modulemap"; sourceTree = "<group>"; };
+		C4B3BEE2A1FCE0D8135134C7DFD17316 /* Pods-ZZWebTouchControl_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZZWebTouchControl_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		CD5EE4B1D6904E96821C8D3773098ECF /* Pods-ZZWebTouchControl_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZZWebTouchControl_Example-dummy.m"; sourceTree = "<group>"; };
+		D08D419363DF49989D03C19D113FCF52 /* Pods-ZZWebTouchControl_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZZWebTouchControl_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		D0A3D24121E2DF62CEEBEF22CE4CD1C0 /* ZZWebTouchControl-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZZWebTouchControl-umbrella.h"; sourceTree = "<group>"; };
+		D67167144BAC771BEF4A2F9C221E60F0 /* ZZWebTouchControl-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZZWebTouchControl-dummy.m"; sourceTree = "<group>"; };
+		DEE0784ADC77BC0A25A57C72BCF54CA4 /* Pods_ZZWebTouchControl_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ZZWebTouchControl_Example.framework; path = "Pods-ZZWebTouchControl_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAC4455E773A650714C63BBECB916F34 /* Pods-ZZWebTouchControl_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZZWebTouchControl_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		137AA3727AAD6720DB7982CD7968073E /* Frameworks */ = {
+		20B5005464C57EE788D1250ECD965CE8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D352E6105ACC9639C94F527AB3631308 /* Foundation.framework in Frameworks */,
+				07B4BE100A83D8E69B4F194E10571E03 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1A3DA8A90B6C6CB77A1359F6734DECC1 /* Frameworks */ = {
+		5C3F45E43ABC71BBA4A6DE5D015E50EE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7702FE520695A3CA42C5543C61374A3B /* Foundation.framework in Frameworks */,
+				F818D42E377218B164A37DF602A68009 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D5012B93BFB0C263106D74F5293DCA2D /* Frameworks */ = {
+		F2C233C271FC6421C298F6886200C9C4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A9673A54E87CB5192E29D243F7883460 /* Foundation.framework in Frameworks */,
+				738618A817D8D7D8821E1429E4CBAA67 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		31FF264D8CA62D351C99E0B404143DB6 /* Products */ = {
+		30D71938F45BB726134703A4AE8E2B40 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				93E1A00227E49770A8D8EC46BC5B455A /* Pods_ZZWebViewDemo_Example.framework */,
-				945F910D0EFBEFD43F2C7177B438EEAD /* Pods_ZZWebViewDemo_Tests.framework */,
-				FCD1577A09BA853256CD0C935FC48BAB /* ZZWebViewDemo.framework */,
+				7884FA8AECFC68843106FF93277238C5 /* LICENSE */,
+				9A01D2A962E6911D51F54F850C179E93 /* README.md */,
+				3F48E20A6799329ADABF67BB47E9F932 /* ZZWebTouchControl.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		5C643E2A78D7E1E7593E779A8C4DDA44 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CB146D81D32CA1BC35323854E54B768C /* ZZWebTouchControl */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		680B266BE35DFE09395B352D4DB154E0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DEE0784ADC77BC0A25A57C72BCF54CA4 /* Pods_ZZWebTouchControl_Example.framework */,
+				49BC0D99617F8C617D411B3745194152 /* Pods_ZZWebTouchControl_Tests.framework */,
+				2C6AF08A7D6AB448EC2DCF61A802B52F /* ZZWebTouchControl.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		3858D51A2A89A8DBD73BCD4BC329C6A7 /* ZZWebViewDemo */ = {
+		6825BC6B0C952295C508112395EF81C9 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				62A17BFEE15C7D7CB586DC74AC130A3B /* ReplaceMe.m */,
-				8CFF0C849CCC098AFF283AECAADE1076 /* Pod */,
-				B29047322A6B4D7D24680A24BBB20953 /* Support Files */,
+				E35730CEBDF10D052CFC4EC5014AB9C2 /* Pods-ZZWebTouchControl_Example */,
+				DBC1E7EABD198264B7C06E4A5FD720E6 /* Pods-ZZWebTouchControl_Tests */,
 			);
-			name = ZZWebViewDemo;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		7299E86452CA88845AC6EE3D13C578BA /* Pods-ZZWebViewDemo_Tests */ = {
-			isa = PBXGroup;
-			children = (
-				65DCFA3D6A8A5D45A9755186A3AA2F08 /* Info.plist */,
-				6B25AE2CCC2D2652CE39BD6955307333 /* Pods-ZZWebViewDemo_Tests.modulemap */,
-				FB9365A91C6D9E3B4B58F4FECC69341C /* Pods-ZZWebViewDemo_Tests-acknowledgements.markdown */,
-				CB78BD6AB3150FA35844E5D727BBA3C8 /* Pods-ZZWebViewDemo_Tests-acknowledgements.plist */,
-				5C3482EADBCC81C4AEA165BC48004169 /* Pods-ZZWebViewDemo_Tests-dummy.m */,
-				3C24F65C3F5D4D3695A914D35F8B2DDF /* Pods-ZZWebViewDemo_Tests-frameworks.sh */,
-				6E6216E1FFD505F1CCA705467DA4190F /* Pods-ZZWebViewDemo_Tests-resources.sh */,
-				AA068DB44048E9D3B2F3F5769E8528B9 /* Pods-ZZWebViewDemo_Tests-umbrella.h */,
-				4D39F06D2AF6276885D589AEE6DACB4B /* Pods-ZZWebViewDemo_Tests.debug.xcconfig */,
-				69E9EB68DB8E574F8A0E04CE62EAB677 /* Pods-ZZWebViewDemo_Tests.release.xcconfig */,
-			);
-			name = "Pods-ZZWebViewDemo_Tests";
-			path = "Target Support Files/Pods-ZZWebViewDemo_Tests";
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				98A4E753824D41CB616D7779231F1C0D /* Development Pods */,
+				5C643E2A78D7E1E7593E779A8C4DDA44 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				31FF264D8CA62D351C99E0B404143DB6 /* Products */,
-				D37F4B70A5F76C88E9540AA94FC24939 /* Targets Support Files */,
+				680B266BE35DFE09395B352D4DB154E0 /* Products */,
+				6825BC6B0C952295C508112395EF81C9 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		8CFF0C849CCC098AFF283AECAADE1076 /* Pod */ = {
+		934F409103FE6E832226477434F6E0E9 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				CE0638C4B78F0E12C663FAA23683C43E /* LICENSE */,
-				64668BD71AA303D0EAB54D5BF35F721C /* README.md */,
-				E8A64BCFA9870B89207245551A9789ED /* ZZWebViewDemo.podspec */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		98A4E753824D41CB616D7779231F1C0D /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				3858D51A2A89A8DBD73BCD4BC329C6A7 /* ZZWebViewDemo */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		9E513A31800B0DE3E4520AB8F27BAC82 /* Pods-ZZWebViewDemo_Example */ = {
-			isa = PBXGroup;
-			children = (
-				33F3E13AB358EC4B0024ACC66E3E7D67 /* Info.plist */,
-				1A21F4BFD448C1164E7B458B96E1471E /* Pods-ZZWebViewDemo_Example.modulemap */,
-				EE82651D9D5D797F4C362465C3B5DE92 /* Pods-ZZWebViewDemo_Example-acknowledgements.markdown */,
-				0562359014789E775790218E2B82C5C8 /* Pods-ZZWebViewDemo_Example-acknowledgements.plist */,
-				59BEAF0C12A077E96A8F2A71AB7B77B6 /* Pods-ZZWebViewDemo_Example-dummy.m */,
-				BD37E54BEAD975AAB8D6A8CEFC883528 /* Pods-ZZWebViewDemo_Example-frameworks.sh */,
-				3299B48BC6C3FF6FB0BDA226CE8127F8 /* Pods-ZZWebViewDemo_Example-resources.sh */,
-				12CBD408C6A0017181E2C4529DD6B14C /* Pods-ZZWebViewDemo_Example-umbrella.h */,
-				B229CD7D699E486427F07C7A6B51F1E1 /* Pods-ZZWebViewDemo_Example.debug.xcconfig */,
-				2C01BDE2EADB5D65B747ED38DE6DD48C /* Pods-ZZWebViewDemo_Example.release.xcconfig */,
-			);
-			name = "Pods-ZZWebViewDemo_Example";
-			path = "Target Support Files/Pods-ZZWebViewDemo_Example";
-			sourceTree = "<group>";
-		};
-		B29047322A6B4D7D24680A24BBB20953 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				7F6226467817EAFC64CAC4CEE15FCDCD /* Info.plist */,
-				EFC9E1ECE336B0BE8A59B6F801B01566 /* ZZWebViewDemo.modulemap */,
-				0E8E189C0C931D738C9D45A0991BF491 /* ZZWebViewDemo.xcconfig */,
-				B60B545134C1AA1C090B9094F7765377 /* ZZWebViewDemo-dummy.m */,
-				A5FF4B7C06E67DF1B3C337C9FB198EA3 /* ZZWebViewDemo-prefix.pch */,
-				C17EAE3B61DCEE17B085CE1A804E1F0B /* ZZWebViewDemo-umbrella.h */,
+				66CE61E8A5D0EEA8E01D05B6A382EA6B /* Info.plist */,
+				18EEE1E0794EE59289C033597DD365D9 /* ZZWebTouchControl.modulemap */,
+				40DB88D51BA43A3048535CF60E1CE193 /* ZZWebTouchControl.xcconfig */,
+				D67167144BAC771BEF4A2F9C221E60F0 /* ZZWebTouchControl-dummy.m */,
+				648F9D515463BAB6F85F54EE51AEC1D5 /* ZZWebTouchControl-prefix.pch */,
+				D0A3D24121E2DF62CEEBEF22CE4CD1C0 /* ZZWebTouchControl-umbrella.h */,
 			);
 			name = "Support Files";
-			path = "Example/Pods/Target Support Files/ZZWebViewDemo";
+			path = "Example/Pods/Target Support Files/ZZWebTouchControl";
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -210,6 +172,17 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		CB146D81D32CA1BC35323854E54B768C /* ZZWebTouchControl */ = {
+			isa = PBXGroup;
+			children = (
+				6B9C17E4345E1A42B69B5FEA17C87FAF /* ReplaceMe.m */,
+				30D71938F45BB726134703A4AE8E2B40 /* Pod */,
+				934F409103FE6E832226477434F6E0E9 /* Support Files */,
+			);
+			name = ZZWebTouchControl;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -218,96 +191,123 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		D37F4B70A5F76C88E9540AA94FC24939 /* Targets Support Files */ = {
+		DBC1E7EABD198264B7C06E4A5FD720E6 /* Pods-ZZWebTouchControl_Tests */ = {
 			isa = PBXGroup;
 			children = (
-				9E513A31800B0DE3E4520AB8F27BAC82 /* Pods-ZZWebViewDemo_Example */,
-				7299E86452CA88845AC6EE3D13C578BA /* Pods-ZZWebViewDemo_Tests */,
+				B128D2C522247B94BD13A6386A3E32B1 /* Info.plist */,
+				02A5DD7E46416F7553F3041CFC3796C2 /* Pods-ZZWebTouchControl_Tests.modulemap */,
+				31F7FE7D9A421CAFF4FD44EAC2809EB4 /* Pods-ZZWebTouchControl_Tests-acknowledgements.markdown */,
+				D08D419363DF49989D03C19D113FCF52 /* Pods-ZZWebTouchControl_Tests-acknowledgements.plist */,
+				93EC023ACD70110F47A6BAC3B7567C41 /* Pods-ZZWebTouchControl_Tests-dummy.m */,
+				C4B3BEE2A1FCE0D8135134C7DFD17316 /* Pods-ZZWebTouchControl_Tests-frameworks.sh */,
+				A5C72568C0A9F735C70A69C84CFA0BF2 /* Pods-ZZWebTouchControl_Tests-resources.sh */,
+				2D465CF2D05163418C7A5328E8B1158A /* Pods-ZZWebTouchControl_Tests-umbrella.h */,
+				1DE257FFE8905CA543AFA98CBA92EF7B /* Pods-ZZWebTouchControl_Tests.debug.xcconfig */,
+				EAC4455E773A650714C63BBECB916F34 /* Pods-ZZWebTouchControl_Tests.release.xcconfig */,
 			);
-			name = "Targets Support Files";
+			name = "Pods-ZZWebTouchControl_Tests";
+			path = "Target Support Files/Pods-ZZWebTouchControl_Tests";
+			sourceTree = "<group>";
+		};
+		E35730CEBDF10D052CFC4EC5014AB9C2 /* Pods-ZZWebTouchControl_Example */ = {
+			isa = PBXGroup;
+			children = (
+				BCBC24C51367EBBD0B68A3BF3BBF2B17 /* Info.plist */,
+				C25B43CA8024520EBF4974D09BE28AA5 /* Pods-ZZWebTouchControl_Example.modulemap */,
+				9BBE91ABB82851169EEA1302DC61A2A5 /* Pods-ZZWebTouchControl_Example-acknowledgements.markdown */,
+				5F5C000FAEBF99B5357AB07A3025581F /* Pods-ZZWebTouchControl_Example-acknowledgements.plist */,
+				CD5EE4B1D6904E96821C8D3773098ECF /* Pods-ZZWebTouchControl_Example-dummy.m */,
+				77A1FD6AFC7FB9A2CB4470C3E8B41792 /* Pods-ZZWebTouchControl_Example-frameworks.sh */,
+				6AAA87714EF243FFD2B0131875574926 /* Pods-ZZWebTouchControl_Example-resources.sh */,
+				69F62A2469A8D90CE3C97E2CEE060BFE /* Pods-ZZWebTouchControl_Example-umbrella.h */,
+				B73E0B05AAD7AD7F82F9CA2E2D108F11 /* Pods-ZZWebTouchControl_Example.debug.xcconfig */,
+				7D260B5D1B76FF6517E7D1BEC265D362 /* Pods-ZZWebTouchControl_Example.release.xcconfig */,
+			);
+			name = "Pods-ZZWebTouchControl_Example";
+			path = "Target Support Files/Pods-ZZWebTouchControl_Example";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		671BCA7DB7C714DFB4A2272731CB1995 /* Headers */ = {
+		07BDF3131083AEFE625ED96C8CD15C89 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9F32E6562F3B6C471F44F29E99C2E21C /* ZZWebViewDemo-umbrella.h in Headers */,
+				9A5D5A0834354C3959CC3623BE5F65D9 /* Pods-ZZWebTouchControl_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		868DC71C55982294A3B5520258AED864 /* Headers */ = {
+		151E6263713EDA1E58F9ACC5F22B8FCB /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC278107FF7CBF2B7E3B2C0EBE9F19EB /* Pods-ZZWebViewDemo_Tests-umbrella.h in Headers */,
+				2999ED6C0DA4246CF5A09B914E4DD2DD /* ZZWebTouchControl-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D046018C53CC957437802632CDD78297 /* Headers */ = {
+		7893B875E829367F55597C465926DEB1 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2B8C5CE602742B5CFCDDABEF03235BDC /* Pods-ZZWebViewDemo_Example-umbrella.h in Headers */,
+				C5F175E3F3606C1745FBB7282D6DD675 /* Pods-ZZWebTouchControl_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		45E6C115386CF66EE10346BF7A09262C /* ZZWebViewDemo */ = {
+		2109376D59125DACE24F9695ED28FB44 /* Pods-ZZWebTouchControl_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4A85D8CFAFB10B0E17B99FEAB144CF79 /* Build configuration list for PBXNativeTarget "ZZWebViewDemo" */;
+			buildConfigurationList = 36EBB80632DC83C79BF4A8B50FE6099E /* Build configuration list for PBXNativeTarget "Pods-ZZWebTouchControl_Example" */;
 			buildPhases = (
-				68A6E7A39DDF210810D73DC0320EF79B /* Sources */,
-				137AA3727AAD6720DB7982CD7968073E /* Frameworks */,
-				671BCA7DB7C714DFB4A2272731CB1995 /* Headers */,
+				8D8EC3B1A7253941145C09C34B861CD4 /* Sources */,
+				5C3F45E43ABC71BBA4A6DE5D015E50EE /* Frameworks */,
+				7893B875E829367F55597C465926DEB1 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				B709943F56B50AC04D3A1BB2D957987C /* PBXTargetDependency */,
 			);
-			name = ZZWebViewDemo;
-			productName = ZZWebViewDemo;
-			productReference = FCD1577A09BA853256CD0C935FC48BAB /* ZZWebViewDemo.framework */;
+			name = "Pods-ZZWebTouchControl_Example";
+			productName = "Pods-ZZWebTouchControl_Example";
+			productReference = DEE0784ADC77BC0A25A57C72BCF54CA4 /* Pods_ZZWebTouchControl_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		C5068C5CCF15887B01F77A6020FD6567 /* Pods-ZZWebViewDemo_Example */ = {
+		59E9EA74A5632A0BAAE22B587CF1CE10 /* ZZWebTouchControl */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7DB211C0F610EBF7B647E8E2E91FE7BE /* Build configuration list for PBXNativeTarget "Pods-ZZWebViewDemo_Example" */;
+			buildConfigurationList = 971A5381676BA0E85BDE12887C2D38CA /* Build configuration list for PBXNativeTarget "ZZWebTouchControl" */;
 			buildPhases = (
-				C9E56CBAC2B8ACDC8671005CBBC0B539 /* Sources */,
-				D5012B93BFB0C263106D74F5293DCA2D /* Frameworks */,
-				D046018C53CC957437802632CDD78297 /* Headers */,
+				41A194C5F8CC223F0DD6B6AA6EC730AF /* Sources */,
+				F2C233C271FC6421C298F6886200C9C4 /* Frameworks */,
+				151E6263713EDA1E58F9ACC5F22B8FCB /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				1C6682A9E003A8A0ABF678B9CA329B01 /* PBXTargetDependency */,
 			);
-			name = "Pods-ZZWebViewDemo_Example";
-			productName = "Pods-ZZWebViewDemo_Example";
-			productReference = 93E1A00227E49770A8D8EC46BC5B455A /* Pods_ZZWebViewDemo_Example.framework */;
+			name = ZZWebTouchControl;
+			productName = ZZWebTouchControl;
+			productReference = 2C6AF08A7D6AB448EC2DCF61A802B52F /* ZZWebTouchControl.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		FF1F3C91FE0541C7665272AC9BCA2A93 /* Pods-ZZWebViewDemo_Tests */ = {
+		E96C2BAE0B7E427737FE098464550DC9 /* Pods-ZZWebTouchControl_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 679506EFDE5F9E2DD6A2BEE4F978CDBB /* Build configuration list for PBXNativeTarget "Pods-ZZWebViewDemo_Tests" */;
+			buildConfigurationList = 8A04CCD2620B641497E4C201ECD544CB /* Build configuration list for PBXNativeTarget "Pods-ZZWebTouchControl_Tests" */;
 			buildPhases = (
-				8A94EF0AB9D6D1B56C76826FECCF6193 /* Sources */,
-				1A3DA8A90B6C6CB77A1359F6734DECC1 /* Frameworks */,
-				868DC71C55982294A3B5520258AED864 /* Headers */,
+				D3074AFF403C3FAF57F9B1449A81CA83 /* Sources */,
+				20B5005464C57EE788D1250ECD965CE8 /* Frameworks */,
+				07BDF3131083AEFE625ED96C8CD15C89 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				E8414187E7983538BCD37E51C1B82799 /* PBXTargetDependency */,
+				B8818DEB0727023AB6851D2F62AA9ABF /* PBXTargetDependency */,
 			);
-			name = "Pods-ZZWebViewDemo_Tests";
-			productName = "Pods-ZZWebViewDemo_Tests";
-			productReference = 945F910D0EFBEFD43F2C7177B438EEAD /* Pods_ZZWebViewDemo_Tests.framework */;
+			name = "Pods-ZZWebTouchControl_Tests";
+			productName = "Pods-ZZWebTouchControl_Tests";
+			productReference = 49BC0D99617F8C617D411B3745194152 /* Pods_ZZWebTouchControl_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -327,64 +327,95 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 31FF264D8CA62D351C99E0B404143DB6 /* Products */;
+			productRefGroup = 680B266BE35DFE09395B352D4DB154E0 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C5068C5CCF15887B01F77A6020FD6567 /* Pods-ZZWebViewDemo_Example */,
-				FF1F3C91FE0541C7665272AC9BCA2A93 /* Pods-ZZWebViewDemo_Tests */,
-				45E6C115386CF66EE10346BF7A09262C /* ZZWebViewDemo */,
+				2109376D59125DACE24F9695ED28FB44 /* Pods-ZZWebTouchControl_Example */,
+				E96C2BAE0B7E427737FE098464550DC9 /* Pods-ZZWebTouchControl_Tests */,
+				59E9EA74A5632A0BAAE22B587CF1CE10 /* ZZWebTouchControl */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		68A6E7A39DDF210810D73DC0320EF79B /* Sources */ = {
+		41A194C5F8CC223F0DD6B6AA6EC730AF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AD6E30CF64129237B034CE4FB119C8EC /* ReplaceMe.m in Sources */,
-				7E539E6647598C479595906B8417424D /* ZZWebViewDemo-dummy.m in Sources */,
+				790492D182359C3803E18FE3FD501FDF /* ReplaceMe.m in Sources */,
+				A2467C2BCEDF0A34930A0C2F8A9F804E /* ZZWebTouchControl-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8A94EF0AB9D6D1B56C76826FECCF6193 /* Sources */ = {
+		8D8EC3B1A7253941145C09C34B861CD4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6B7C71B8582E718DCC0E359F2CAD2964 /* Pods-ZZWebViewDemo_Tests-dummy.m in Sources */,
+				B255D099A307B80F30FEEAAE56733451 /* Pods-ZZWebTouchControl_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C9E56CBAC2B8ACDC8671005CBBC0B539 /* Sources */ = {
+		D3074AFF403C3FAF57F9B1449A81CA83 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				66AE2FE8A8FC11140254A8D390E0E901 /* Pods-ZZWebViewDemo_Example-dummy.m in Sources */,
+				FB8E8304052D410FE6DD1A005F216195 /* Pods-ZZWebTouchControl_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		1C6682A9E003A8A0ABF678B9CA329B01 /* PBXTargetDependency */ = {
+		B709943F56B50AC04D3A1BB2D957987C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = ZZWebViewDemo;
-			target = 45E6C115386CF66EE10346BF7A09262C /* ZZWebViewDemo */;
-			targetProxy = DB0838A83FD0065117D116A5FD13B60C /* PBXContainerItemProxy */;
+			name = ZZWebTouchControl;
+			target = 59E9EA74A5632A0BAAE22B587CF1CE10 /* ZZWebTouchControl */;
+			targetProxy = 3D2E85A29E161BC33AD1A448308153E3 /* PBXContainerItemProxy */;
 		};
-		E8414187E7983538BCD37E51C1B82799 /* PBXTargetDependency */ = {
+		B8818DEB0727023AB6851D2F62AA9ABF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = "Pods-ZZWebViewDemo_Example";
-			target = C5068C5CCF15887B01F77A6020FD6567 /* Pods-ZZWebViewDemo_Example */;
-			targetProxy = EB105295368808D160ED24D1511C3F1F /* PBXContainerItemProxy */;
+			name = "Pods-ZZWebTouchControl_Example";
+			target = 2109376D59125DACE24F9695ED28FB44 /* Pods-ZZWebTouchControl_Example */;
+			targetProxy = BF907155132A08A3B82850F315C92E25 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		37F7DAF0A6E2F30B5C91D5D7A2148B98 /* Release */ = {
+		07440AA1DDFE114C4D8D5C2FCF39F91A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2C01BDE2EADB5D65B747ED38DE6DD48C /* Pods-ZZWebViewDemo_Example.release.xcconfig */;
+			baseConfigurationReference = 40DB88D51BA43A3048535CF60E1CE193 /* ZZWebTouchControl.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ZZWebTouchControl/ZZWebTouchControl-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ZZWebTouchControl/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ZZWebTouchControl/ZZWebTouchControl.modulemap";
+				PRODUCT_MODULE_NAME = ZZWebTouchControl;
+				PRODUCT_NAME = ZZWebTouchControl;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		38D3049F27F8CF57C8C1678284D0A840 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D260B5D1B76FF6517E7D1BEC265D362 /* Pods-ZZWebTouchControl_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -396,12 +427,12 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-ZZWebViewDemo_Example/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-ZZWebTouchControl_Example/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-ZZWebViewDemo_Example/Pods-ZZWebViewDemo_Example.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-ZZWebTouchControl_Example/Pods-ZZWebTouchControl_Example.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -416,39 +447,9 @@
 			};
 			name = Release;
 		};
-		48B78D24740AAA7C20232CC0C49AEF5A /* Debug */ = {
+		39A9AFDBB0202A117BC625E1440916B0 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0E8E189C0C931D738C9D45A0991BF491 /* ZZWebViewDemo.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/ZZWebViewDemo/ZZWebViewDemo-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ZZWebViewDemo/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/ZZWebViewDemo/ZZWebViewDemo.modulemap";
-				PRODUCT_MODULE_NAME = ZZWebViewDemo;
-				PRODUCT_NAME = ZZWebViewDemo;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		55410219EC06BCF0ADF75E043C90BDE4 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B229CD7D699E486427F07C7A6B51F1E1 /* Pods-ZZWebViewDemo_Example.debug.xcconfig */;
+			baseConfigurationReference = EAC4455E773A650714C63BBECB916F34 /* Pods-ZZWebTouchControl_Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -460,12 +461,12 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-ZZWebViewDemo_Example/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-ZZWebTouchControl_Tests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-ZZWebViewDemo_Example/Pods-ZZWebViewDemo_Example.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-ZZWebTouchControl_Tests/Pods-ZZWebTouchControl_Tests.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -473,36 +474,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		7E3760EB25B62EEB192F402F193A2BF1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0E8E189C0C931D738C9D45A0991BF491 /* ZZWebViewDemo.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/ZZWebViewDemo/ZZWebViewDemo-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ZZWebViewDemo/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/ZZWebViewDemo/ZZWebViewDemo.modulemap";
-				PRODUCT_MODULE_NAME = ZZWebViewDemo;
-				PRODUCT_NAME = ZZWebViewDemo;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -573,9 +544,39 @@
 			};
 			name = Debug;
 		};
-		9F9AE050D5616DFE035711CDFC7B2550 /* Release */ = {
+		8B9FA554D50880D5D1C5D5B29D967A54 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 69E9EB68DB8E574F8A0E04CE62EAB677 /* Pods-ZZWebViewDemo_Tests.release.xcconfig */;
+			baseConfigurationReference = 40DB88D51BA43A3048535CF60E1CE193 /* ZZWebTouchControl.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ZZWebTouchControl/ZZWebTouchControl-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ZZWebTouchControl/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ZZWebTouchControl/ZZWebTouchControl.modulemap";
+				PRODUCT_MODULE_NAME = ZZWebTouchControl;
+				PRODUCT_NAME = ZZWebTouchControl;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A7085D40208FD8E7C5D084532C24CE43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1DE257FFE8905CA543AFA98CBA92EF7B /* Pods-ZZWebTouchControl_Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -587,12 +588,12 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-ZZWebViewDemo_Tests/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-ZZWebTouchControl_Tests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-ZZWebViewDemo_Tests/Pods-ZZWebViewDemo_Tests.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-ZZWebTouchControl_Tests/Pods-ZZWebTouchControl_Tests.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -601,11 +602,10 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		B42B54097A876E8A982CBF5DAA91B1AB /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -665,9 +665,9 @@
 			};
 			name = Release;
 		};
-		C73390FC4118D26FE895274060F848FB /* Debug */ = {
+		BA2AFCEA15C149343FE054DA930A77FC /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4D39F06D2AF6276885D589AEE6DACB4B /* Pods-ZZWebViewDemo_Tests.debug.xcconfig */;
+			baseConfigurationReference = B73E0B05AAD7AD7F82F9CA2E2D108F11 /* Pods-ZZWebTouchControl_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -679,12 +679,12 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-ZZWebViewDemo_Tests/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-ZZWebTouchControl_Example/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-ZZWebViewDemo_Tests/Pods-ZZWebViewDemo_Tests.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-ZZWebTouchControl_Example/Pods-ZZWebTouchControl_Example.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -710,29 +710,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4A85D8CFAFB10B0E17B99FEAB144CF79 /* Build configuration list for PBXNativeTarget "ZZWebViewDemo" */ = {
+		36EBB80632DC83C79BF4A8B50FE6099E /* Build configuration list for PBXNativeTarget "Pods-ZZWebTouchControl_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				48B78D24740AAA7C20232CC0C49AEF5A /* Debug */,
-				7E3760EB25B62EEB192F402F193A2BF1 /* Release */,
+				BA2AFCEA15C149343FE054DA930A77FC /* Debug */,
+				38D3049F27F8CF57C8C1678284D0A840 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		679506EFDE5F9E2DD6A2BEE4F978CDBB /* Build configuration list for PBXNativeTarget "Pods-ZZWebViewDemo_Tests" */ = {
+		8A04CCD2620B641497E4C201ECD544CB /* Build configuration list for PBXNativeTarget "Pods-ZZWebTouchControl_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C73390FC4118D26FE895274060F848FB /* Debug */,
-				9F9AE050D5616DFE035711CDFC7B2550 /* Release */,
+				A7085D40208FD8E7C5D084532C24CE43 /* Debug */,
+				39A9AFDBB0202A117BC625E1440916B0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7DB211C0F610EBF7B647E8E2E91FE7BE /* Build configuration list for PBXNativeTarget "Pods-ZZWebViewDemo_Example" */ = {
+		971A5381676BA0E85BDE12887C2D38CA /* Build configuration list for PBXNativeTarget "ZZWebTouchControl" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				55410219EC06BCF0ADF75E043C90BDE4 /* Debug */,
-				37F7DAF0A6E2F30B5C91D5D7A2148B98 /* Release */,
+				8B9FA554D50880D5D1C5D5B29D967A54 /* Debug */,
+				07440AA1DDFE114C4D8D5C2FCF39F91A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

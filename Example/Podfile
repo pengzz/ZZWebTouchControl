@@ -1,9 +1,9 @@
 use_frameworks!
 
-target 'ZZWebViewDemo_Example' do
-  pod 'ZZWebViewDemo', :path => '../'
+target 'ZZWebTouchControl_Example' do
+  pod 'ZZWebTouchControl', :path => '../'
 
-  target 'ZZWebViewDemo_Tests' do
+  target 'ZZWebTouchControl_Tests' do
     inherit! :search_paths
 
     
