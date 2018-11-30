@@ -147,7 +147,7 @@
 		1C0B9EA82181B38F00DCDB58 /* UIView+FMAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C0B9EA42181B38F00DCDB58 /* UIView+FMAdd.m */; };
 		1C0B9EA92181B38F00DCDB58 /* UIWebView+FMAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C0B9EA52181B38F00DCDB58 /* UIWebView+FMAdd.m */; };
 		1C0B9EAC2181B6DE00DCDB58 /* FMWeiboDetailView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C0B9EAA2181B6DE00DCDB58 /* FMWeiboDetailView.m */; };
-		1CD5311821829AFF0079CF42 /* ZZWebTouchControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CD5311721829AFF0079CF42 /* ZZWebTouchControl.m */; };
+		1C8C0D1E21B0DA9B00331C46 /* ZZWebTouchControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C8C0D1C21B0DA9B00331C46 /* ZZWebTouchControl.m */; };
 		1CD5312A2182AF9A0079CF42 /* HZIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CD5311F2182AF9A0079CF42 /* HZIndicatorView.m */; };
 		1CD5312B2182AF9A0079CF42 /* whiteplaceholder.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CD531202182AF9A0079CF42 /* whiteplaceholder.png */; };
 		1CD5312C2182AF9A0079CF42 /* HZPhotoBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CD531222182AF9A0079CF42 /* HZPhotoBrowser.m */; };
@@ -407,8 +407,8 @@
 		1C0B9EA72181B38F00DCDB58 /* UIView+FMAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+FMAdd.h"; sourceTree = "<group>"; };
 		1C0B9EAA2181B6DE00DCDB58 /* FMWeiboDetailView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMWeiboDetailView.m; sourceTree = "<group>"; };
 		1C0B9EAB2181B6DE00DCDB58 /* FMWeiboDetailView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMWeiboDetailView.h; sourceTree = "<group>"; };
-		1CD5311621829AFF0079CF42 /* ZZWebTouchControl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZWebTouchControl.h; sourceTree = "<group>"; };
-		1CD5311721829AFF0079CF42 /* ZZWebTouchControl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZWebTouchControl.m; sourceTree = "<group>"; };
+		1C8C0D1C21B0DA9B00331C46 /* ZZWebTouchControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZWebTouchControl.m; sourceTree = "<group>"; };
+		1C8C0D1D21B0DA9B00331C46 /* ZZWebTouchControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZWebTouchControl.h; sourceTree = "<group>"; };
 		1CD5311F2182AF9A0079CF42 /* HZIndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HZIndicatorView.m; sourceTree = "<group>"; };
 		1CD531202182AF9A0079CF42 /* whiteplaceholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = whiteplaceholder.png; sourceTree = "<group>"; };
 		1CD531212182AF9A0079CF42 /* HZPhotoBrowserConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HZPhotoBrowserConfig.h; sourceTree = "<group>"; };
@@ -838,6 +838,15 @@
 			path = Categorys;
 			sourceTree = "<group>";
 		};
+		1C8C0D1B21B0DA9B00331C46 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1C8C0D1C21B0DA9B00331C46 /* ZZWebTouchControl.m */,
+				1C8C0D1D21B0DA9B00331C46 /* ZZWebTouchControl.h */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		1CD5311D2182AF9A0079CF42 /* Vendor */ = {
 			isa = PBXGroup;
 			children = (
@@ -908,15 +917,14 @@
 		6003F593195388D20070C39A /* Example for ZZWebTouchControl */ = {
 			isa = PBXGroup;
 			children = (
-				6003F59C195388D20070C39A /* ZZAppDelegate.h */,
-				6003F59D195388D20070C39A /* ZZAppDelegate.m */,
-				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				1C0B9EA22181B38F00DCDB58 /* Classes2_WebViewPhotoBrowser */,
 				1C0B9CF32181A37600DCDB58 /* Classes1_MHRefresh_MWebView */,
+				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
+				6003F59C195388D20070C39A /* ZZAppDelegate.h */,
+				6003F59D195388D20070C39A /* ZZAppDelegate.m */,
 				6003F5A5195388D20070C39A /* ZZViewController.h */,
 				6003F5A6195388D20070C39A /* ZZViewController.m */,
-				1CD5311621829AFF0079CF42 /* ZZWebTouchControl.h */,
-				1CD5311721829AFF0079CF42 /* ZZWebTouchControl.m */,
+				1C8C0D1B21B0DA9B00331C46 /* Classes */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -1178,6 +1186,7 @@
 				1C0B9E3E2181A6ED00DCDB58 /* webpenc.c in Sources */,
 				1C0B9E5E2181A6ED00DCDB58 /* dec_mips_dsp_r2.c in Sources */,
 				1C0B9E652181A6ED00DCDB58 /* argb_sse2.c in Sources */,
+				1C8C0D1E21B0DA9B00331C46 /* ZZWebTouchControl.m in Sources */,
 				1C0B9E492181A6ED00DCDB58 /* alpha.c in Sources */,
 				1C0B9E5C2181A6ED00DCDB58 /* filters_mips_dsp_r2.c in Sources */,
 				1C0B9E422181A6ED00DCDB58 /* picture.c in Sources */,
@@ -1265,7 +1274,6 @@
 				1C0B9E632181A6ED00DCDB58 /* upsampling_neon.c in Sources */,
 				1C0B9E4B2181A6ED00DCDB58 /* picture_rescale.c in Sources */,
 				1C0B9E2E2181A6ED00DCDB58 /* quant_levels.c in Sources */,
-				1CD5311821829AFF0079CF42 /* ZZWebTouchControl.m in Sources */,
 				1C0B9E532181A6ED00DCDB58 /* frame.c in Sources */,
 				1C0B9E582181A6ED00DCDB58 /* tree.c in Sources */,
 				1C0B9E8B2181A6ED00DCDB58 /* yuv_mips32.c in Sources */,

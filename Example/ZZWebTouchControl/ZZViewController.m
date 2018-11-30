@@ -14,10 +14,8 @@
 #define StrongSelf __strong typeof(weakSelf) strongSelf = weakSelf;
 
 @interface ZZViewController ()
-{
-    ZZWebTouchControl *_webTouchControl;
-}
 @property(nonatomic, strong)WKWebView *kWebView;
+@property(nonatomic, strong)ZZWebTouchControl *webTouchControl;
 @end
 
 @implementation ZZViewController

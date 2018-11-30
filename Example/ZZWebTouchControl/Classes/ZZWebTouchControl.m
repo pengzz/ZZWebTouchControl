@@ -14,12 +14,6 @@
 @interface ZZWebTouchControl ()
 @property (nonatomic, strong) UITapGestureRecognizer *tapGestureRecognizer;
 @property (nonatomic, strong) UILongPressGestureRecognizer *longPressGestureRecognizer;
-
-//TO DO XXX
-//@property(nonatomic, weak)UIWebView *webView0;
-//@property(nonatomic, weak)WKWebView *wkWebView0;
-//@property(nonatomic, readonly)UIWindow      *window;
-
 @end
 
 @implementation ZZWebTouchControl
@@ -46,80 +40,6 @@
         [self addLongPressGestureRecognizer];
     }
 }
-
-/*
-- (UIWindow *)window {
-    return [[[UIApplication sharedApplication] delegate] window];
-}
-- (CGRect)frameOfElementWithPoint:(CGPoint)touchPoint {
-    NSString *jsElementRect = [NSString stringWithFormat:@"function f(){ var r = document.elementFromPoint(%f, %f).getBoundingClientRect(); return '{{'+r.left+','+r.top+'},{'+r.width+','+r.height+'}}'; } f();",touchPoint.x,touchPoint.y];
-    NSString *result = [_webView0 stringByEvaluatingJavaScriptFromString:jsElementRect];
-    CGRect rect = CGRectFromString(result);
-    return rect;
-}
-- (void)longPressed:(UIGestureRecognizer *)recognizer {
-    switch (recognizer.state) {
-        case UIGestureRecognizerStateBegan: {
-            __weak typeof(self) this = self;
-            CGPoint touchPoint = [recognizer locationInView:self.webView];
-            NSString *jsElement = [NSString stringWithFormat:@"document.elementFromPoint(%f, %f).tagName", touchPoint.x, touchPoint.y];
-            
-            NSString *tagName = [_webView0 stringByEvaluatingJavaScriptFromString:jsElement];
-            NSLog(@">>> %@", tagName);
-            if ([[tagName lowercaseString] isEqualToString:@"img"]) {
-                NSString *jsElementSrc = [NSString stringWithFormat:@"document.elementFromPoint(%f, %f).src", touchPoint.x, touchPoint.y];
-                NSString *_url = [_webView0 stringByEvaluatingJavaScriptFromString:jsElementSrc];
-                
-                CGRect frame = [self frameOfElementWithPoint:touchPoint];//注意这一行的方法
-                NSLog(@"+++++IMG %@  >>>%@", NSStringFromCGRect(frame), _url);
-                CGRect kframe = [_webView0 convertRect:frame toView:self.window];
-                
-                //回调
-                //if (this.completionBlock){
-                //    this.completionBlock(@{@"kframe":NSStringFromCGRect(kframe),@"url":_url,@"type":@"img"});
-                //}
-            }
-        }
-            break;
-        default:
-            break;
-    }
-}
-- (void)wklongPressed:(UIGestureRecognizer *)recognizer {
-    switch (recognizer.state) {
-        case UIGestureRecognizerStateBegan: {
-            __weak typeof(self) this = self;
-            CGPoint touchPoint = [recognizer locationInView:self.wkWebView0];
-            NSString *jsElement = [NSString stringWithFormat:@"document.elementFromPoint(%f, %f).tagName", touchPoint.x, touchPoint.y];
-            
-            [self.wkWebView0 evaluateJavaScript:jsElement completionHandler:^(NSString *tagName, NSError *error) {
-                NSLog(@">>> %@", tagName);
-                if ([[tagName lowercaseString] isEqualToString:@"img"]) {
-                    NSString *jsElementSrc = [NSString stringWithFormat:@"document.elementFromPoint(%f, %f).src", touchPoint.x, touchPoint.y];
-                    [_wkWebView0 evaluateJavaScript:jsElementSrc completionHandler:^(NSString *url, NSError *er) {
-                        NSString *_url = url;
-                        NSString *jsElementRect = [NSString stringWithFormat:@"function f(){ var r = document.elementFromPoint(%f, %f).getBoundingClientRect(); return '{{'+r.left+','+r.top+'},{'+r.width+','+r.height+'}}'; } f();",touchPoint.x,touchPoint.y];
-                        [_wkWebView0 evaluateJavaScript:jsElementRect completionHandler:^(NSString *result, NSError *errorRect) {
-                            CGRect rect = CGRectFromString(result);
-                            NSLog(@"+++++LINK %@  >>> %@>>>>", NSStringFromCGRect(rect), _url);
-                            CGRect kframe = [_wkWebView0 convertRect:rect toView:this.window];
-                            
-                            //回调
-                            //if (this.completionBlock){
-                            //    this.completionBlock(@{@"kframe":NSStringFromCGRect(kframe),@"url":_url,@"type":@"img"});
-                            //}
-                        }];
-                    }];
-                }
-            }];
-        }
-            break;
-        default:
-            break;
-    }
-}
-*/
-
 
  #pragma mark- TapGestureRecognizer
  /**
