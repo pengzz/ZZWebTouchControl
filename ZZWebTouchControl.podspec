@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = "ZZWebTouchControl"
   s.version          = "0.1.0"
-  s.summary          = "仿微信，长按web二维码图片，识别出二维码内容. \n Imitate Wechat, long according to the web two-dimensional code picture, identify the two-dimensional code content."
+  s.summary          = "仿微信，长按web二维码图片，识别出二维码内容."
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
