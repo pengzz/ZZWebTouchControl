@@ -841,8 +841,8 @@
 		1C8C0D1B21B0DA9B00331C46 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				1C8C0D1C21B0DA9B00331C46 /* ZZWebTouchControl.m */,
 				1C8C0D1D21B0DA9B00331C46 /* ZZWebTouchControl.h */,
+				1C8C0D1C21B0DA9B00331C46 /* ZZWebTouchControl.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";

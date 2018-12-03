@@ -22,7 +22,7 @@ pod 'ZZWebTouchControl'
 
 ## Author
 
-pengzz, pzz1284@163.com
+pzz
 
 ## License
 
